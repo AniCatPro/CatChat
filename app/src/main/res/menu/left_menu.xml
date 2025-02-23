@@ -10,6 +10,10 @@
             android:id="@+id/sentItemsFragment"
             android:icon="@android:drawable/ic_menu_send"
             android:title="Sent Items" />
+        <item
+            android:id="@+id/nyanCatFragment"
+            android:icon="@drawable/ic_nyancat"
+        android:title="Nyan Cat" />
     </group>
 
     <item android:title="Support">
