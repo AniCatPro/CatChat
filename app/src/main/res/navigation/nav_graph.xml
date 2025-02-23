@@ -9,16 +9,23 @@
         android:id="@+id/inboxFragment"
         android:name="com.example.catchat.InboxFragment"
         android:label="Inbox"
-        tools:layout="@layout/fragment_inbox" >
-    </fragment>
+        tools:layout="@layout/fragment_inbox" />
+
     <fragment
         android:id="@+id/helpFragment"
         android:name="com.example.catchat.HelpFragment"
         android:label="Help"
         tools:layout="@layout/fragment_help" />
+
     <fragment
         android:id="@+id/sentItemsFragment"
         android:name="com.example.catchat.SentItemsFragment"
         android:label="Sent Items"
         tools:layout="@layout/fragment_sent_items" />
+
+    <fragment
+        android:id="@+id/nyanCatFragment"
+        android:name="com.example.catchat.NyanCatFragment"
+        android:label="Nyan Cat"
+        tools:layout="@layout/fragment_nyan_cat" />
 </navigation>
